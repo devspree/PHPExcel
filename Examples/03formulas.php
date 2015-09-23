@@ -107,7 +107,6 @@ echo date('H:i:s') , " Write to Excel2007 format" , EOL;
 $callStartTime = microtime(true);
 
 $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel2007');
-$objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');
 
 //
 //  If we set Pre Calculated Formulas to true then PHPExcel will calculate all formulae in the
